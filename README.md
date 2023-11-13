@@ -1,3 +1,26 @@
+# Azure B2C Test Project
+
+This is a test project where a simple and quick implementation of Azure B2C functionalities was performed. This project serves as a poc of a quick SSO feature using Azure B2C.
+
+## Description
+
+The project implements basic functionalities of Azure B2C, such as user authentication and registration, password reset, and account management. The implementation is done using Microsoft's recommended practices and guidelines.
+
+## Live Preview
+
+The project is deployed using a live azure b2c instace on the current domain: https://simple-azure-b2c.vercel.app/
+
+## Technologies Used
+
+- Next.js 14
+- Azure B2C
+- Tailwind
+- npm
+- turbopack
+- vercel
+
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
@@ -6,12 +29,6 @@ First, run the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
